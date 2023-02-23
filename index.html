@@ -1,60 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-       .row{
-        display: flex;
-        flex-wrap: wrap;
-       }
-       .col{
-        flex: 25%;
-       }
-       @media screen and (max-width:800px{
-        .col{
-            flex:50%
-        }
-       }
-
-    </style>
 </head>
 <body>
-    <h1>Media Queries</h1>
-    <nav>
-        <div class="col">
-            <img src="https://unsplash.it/300/300" alt="2">
-            <img src="https://unsplash.it/301/300" alt="3">
-            <img src="https://unsplash.it/300/301" alt="4">
-            <img src="https://unsplash.it/300/300" alt="5">
-        </div>
-        <div class="col"> <img src="https://unsplash.it/300/301" alt="2">
-            <img src="https://unsplash.it/301/300" alt="3">
-            <img src="https://unsplash.it/300/301" alt="4">
-            <img src="https://unsplash.it/301/300" alt="5"></div>
-       <div class="col"><img src="https://unsplash.it/300/301" alt="1">
-        <img src="https://unsplash.it/301/300" alt="6">
-        <img src="https://unsplash.it/300/301?sig=2" alt="7">
-        <img src="https://unsplash.it/301/300" alt="8"></div>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p> 
+      </div>
         
-        <div class="col"><img src="https://unsplash.it/300/301" alt="9">
-            <img src="https://unsplash.it/301/300" alt="10">
-            <img src="https://unsplash.it/300/301" alt="2">
-            <img src="https://unsplash.it/301/300" alt="3"></div>
-        <div class="col"><img src="https://unsplash.it/300/301" alt="4">
-            <img src="https://unsplash.it/301/300" alt="5">
-            <img src="https://unsplash.it/300/301" alt="1">
-            <img src="https://unsplash.it/301/300" alt="6"></div>
-        <div class="col"><img src="https://unsplash.it/300/301" alt="7">
-            <img src="https://unsplash.it/301/300" alt="8">
-            <img src="https://unsplash.it/300/301" alt="9">
-            <img src="https://unsplash.it/301/300" alt="10"></div>
-    </nav>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="mq.html" value="Media"> <button type="button" class="btn btn-primary">Media</button></a>
+          </div>
+          <div class="col-sm-4">
+            <h3>Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Column 3</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+        </div>
+      </div>
+      
+      
 </body>
 </html>
